@@ -39,7 +39,7 @@ st.set_page_config(page_title= "E-Com",
                    layout= "wide",
                    initial_sidebar_state= "expanded",
                    menu_items={'About': """# This E-Com page is created by *Mohan.S!"""})
-st.markdown("<h2 style='text-align: center; color: red;'>Predictive Analytics for E-Commerce: Converting Visitors into Valued Customers</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>Predictive Analytics for E-Commerce: Converting Visitors into Valued Customers</h2>", unsafe_allow_html=True)
 
 #--------------------------------------------------------------bgpage-------------------------
 def get_base64_of_bin_file(bin_file):
@@ -60,7 +60,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Example usage
-set_png_as_page_bg("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_project/head1.png")
+set_png_as_page_bg("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_project/Trade.jpg")
 
 
 #--------------------------------------------------------------homepage-------------------------
@@ -69,8 +69,8 @@ set_png_as_page_bg("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_project/head1.p
 def page1():
     col1, col2 = st.columns([2, 1])  
     with col2:
-        st.image("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_project/ecom.png", use_column_width=True)
-        st.image("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_projectshop.png", use_column_width=True)
+        st.image("ecom.png", use_column_width=True)
+        st.image("shop.png", use_column_width=True)
     with col1:
         st.markdown("""
         ## Project Overview
@@ -567,7 +567,7 @@ def page7():
 def main():
     st.sidebar.title("")
 
-    st.sidebar.image("C:/Users/Mohan.S/Desktop/Mohan_Project/Final_project/head1.png", width=100)
+    st.sidebar.image("Mohan.png", width=100)
     st.sidebar.title("Mohan.S (Aspiring a Data Scientist)")
     
 
